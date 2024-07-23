@@ -1,0 +1,21 @@
+{
+  "name": "Name",
+  "email": "E-Mail",
+  "password": "Passwort",
+  "phone": "Telefonnummer",
+  "address": "Adresse",
+  "city": "Stadt",
+  "state": "Bundesland",
+  "gender": "Geschlecht",
+  "male": "Männlich",
+  "female": "Weiblich",
+  "other": "Andere",
+  "submit": "Einreichen",
+  "selectGender": "Geschlecht auswählen",
+  "darkMode": "Dunkler Modus",
+  "lightMode": "Heller Modus",
+  "isRequired": "ist erforderlich",
+  "isInvalid": "ist ungültig",
+  "mustBeAtLeast6Characters": "muss mindestens 6 Zeichen lang sein",
+  "clear form":"Formular löschen"
+}

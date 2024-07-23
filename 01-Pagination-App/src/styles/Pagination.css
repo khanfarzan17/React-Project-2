@@ -1,0 +1,195 @@
+
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.card-content {
+  width: 300px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card-content:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #333;
+  font-weight: bold;
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 10px;
+}
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.card-content {
+  width: 320px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card-content:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+  border-bottom: 2px solid #f0f0f0;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+}
+
+.card-title {
+  font-size: 22px;
+  color: #333;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card-body {
+  padding: 10px 0;
+}
+
+.card-description {
+  font-size: 16px;
+  color: #666;
+}
+
+.user-details {
+  list-style-type: none;
+  padding: 0;
+}
+
+.user-detail {
+  margin-bottom: 10px;
+}
+
+.user-detail strong {
+  color: #333;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.delete-btn {
+  background-color: #e61111;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.action-btn:hover {
+  background-color: #84211c;
+  transform: scale(1.05);
+}
+
+.action-btn:focus {
+  outline: none;
+}
+
+.App-heading {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 30px;
+  color: #333;
+  font-weight: bold;
+}
+
+button {
+  outline: none;
+  border: none;
+}
+
+
+.card-description {
+  font-size: 16px;
+  color: #666;
+}
+
+.number-btn {
+  margin-right: 10px;
+  background-color: green;
+  color: white;
+  height: 40px;
+  width: 40px;
+  padding: 5px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  transition: background-color 0.3s, color 0.3s, transform 0.3s;
+  cursor: pointer;
+}
+
+.number-btn:hover {
+  background-color: white;
+  color: green;
+  border: 1px solid green;
+  transform: scale(1.1);
+}
+
+.number-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+  color: #666;
+}
+
+.button-render {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.App-heading {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 30px;
+  color: #333;
+  font-weight: bold;
+}
+
+button {
+  outline: none;
+  border: none;
+}
+

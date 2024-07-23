@@ -1,0 +1,21 @@
+{
+  "name": "الاسم",
+  "email": "البريد الإلكتروني",
+  "password": "كلمة المرور",
+  "phone": "رقم الهاتف",
+  "address": "العنوان",
+  "city": "المدينة",
+  "state": "الولاية",
+  "gender": "الجنس",
+  "male": "ذكر",
+  "female": "أنثى",
+  "other": "آخر",
+  "submit": "إرسال",
+  "selectGender": "اختر الجنس",
+  "darkMode": "الوضع الداكن",
+  "lightMode": "الوضع الفاتح",
+  "isRequired": "مطلوب",
+  "isInvalid": "غير صالح",
+  "mustBeAtLeast6Characters": "يجب أن يكون على الأقل 6 أحرف",
+  "clear form":"مسح النموذج"
+}

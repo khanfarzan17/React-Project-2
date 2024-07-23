@@ -1,0 +1,21 @@
+{
+  "name": "नाम",
+  "email": "ईमेल",
+  "password": "पासवर्ड",
+  "phone": "फ़ोन नंबर",
+  "address": "पता",
+  "city": "शहर",
+  "state": "राज्य",
+  "gender": "लिंग",
+  "male": "पुरुष",
+  "female": "महिला",
+  "other": "अन्य",
+  "submit": "जमा करें",
+  "selectGender": "लिंग चुनें",
+  "darkMode": "डार्क मोड",
+  "lightMode": "लाइट मोड",
+  "isRequired": "आवश्यक है",
+  "isInvalid": "अमान्य है",
+  "mustBeAtLeast6Characters": "कम से कम 6 अक्षर होने चाहिए",
+  "clear form":"फ़ॉर्म साफ़ करें"
+}

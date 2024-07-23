@@ -1,0 +1,21 @@
+{
+  "name": "Nombre",
+  "email": "Correo electrónico",
+  "password": "Contraseña",
+  "phone": "Número de teléfono",
+  "address": "Dirección",
+  "city": "Ciudad",
+  "state": "Estado",
+  "gender": "Género",
+  "male": "Hombre",
+  "female": "Mujer",
+  "other": "Otro",
+  "submit": "Enviar",
+  "selectGender": "Seleccione Género",
+  "darkMode": "Modo Oscuro",
+  "lightMode": "Modo Claro",
+  "isRequired": "es obligatorio",
+  "isInvalid": "es inválido",
+  "mustBeAtLeast6Characters": "debe tener al menos 6 caracteres",
+  "clear form":"borrar formulario"
+}

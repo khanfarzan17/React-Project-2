@@ -1,0 +1,30 @@
+.container {
+  padding: 20px;
+  text-align: center; 
+  justify-content: space-around;
+  height: 90vh;
+  width: 80%;
+  margin-left: 200px;
+  border: 2px solid wheat;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.light-mode {
+  background-color: white;
+  color:black;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.toggle-btn{
+  height: 50px;
+  width: 50%;
+  padding: 20px;
+  margin-top: 200px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

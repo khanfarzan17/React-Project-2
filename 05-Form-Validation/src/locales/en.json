@@ -1,0 +1,21 @@
+{
+  "name": "Name",
+  "email": "Email",
+  "password": "Password",
+  "phone": "Phone Number",
+  "address": "Address",
+  "city": "City",
+  "state": "State",
+  "gender": "Gender",
+  "male": "Male",
+  "female": "Female",
+  "other": "Other",
+  "submit": "Submit",
+  "selectGender": "Select Gender",
+  "darkMode": "Dark Mode",
+  "lightMode": "Light Mode",
+  "isRequired": "is required",
+  "isInvalid": "is invalid",
+  "mustBeAtLeast6Characters": "must be at least 6 characters",
+  "clear form":"clear form"
+}
