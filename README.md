@@ -1,0 +1,1 @@
+This repository contains a React project built using Vite, developed for a Machine Coding Interview. The project demonstrates my ability to design and implement a front-end application using React and Vite, showcasing best practices in coding, structuring, and performance optimization.
