@@ -1,4 +1,4 @@
-import React, { useState, useContext, useEffect } from "react";
+import { useState, useContext, useEffect } from "react";
 import "../styles/Greeting.css";
 import { ThemeContext } from "../context/ThemeContext";
 import { CiLight } from "react-icons/ci";

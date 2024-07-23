@@ -1,5 +1,3 @@
-
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -10,80 +8,60 @@ body {
   font-family: Arial, sans-serif;
 }
 
-
-
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 50px;
+  width: 35%;
+  height: 70vh;
+  margin: 50px auto;
+  padding: 20px;
   border: 2px solid rgb(212, 19, 19);
   border-radius: 10px;
-  width: 35%;
   background-color: var(--background-color);
   color: var(--text-color);
-  margin-left: 450px;
-  padding: 20px;
   transition: background-color 0.3s, color 0.3s;
- margin-left: 30%;
- height: 70vh;
 }
-.toggle-btn{
-  margin-bottom: 20px;
-  top: 20px;
-  right: 20px;
-  position: relative;
-  height: 40px;
-  width: 40px;
-  margin-left: 20px;
-  
-}
-.button-container{
-  display: inline-flex;
-  justify-content: space-between;
+
+.button-container {
+  display: flex;
+  justify-content: center;
   align-items: center;
   gap: 10px;
-
-
+  margin-bottom: 20px;
 }
 
-
+.toggle-btn {
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+}
 
 .app-title {
   font-size: 24px;
   margin-bottom: 20px;
 }
 
-
-
 .input-field {
+  width: 70%;
   padding: 10px;
   margin-bottom: 10px;
-  width: 70%;
+  font-size: 16px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  padding: 20px;
-  font-size: 16px;
-  
-
 }
 
-
-
 .button {
-  display: flex;
-  flex-direction: column;
   padding: 10px 20px;
   margin-bottom: 10px;
   background-color: #007bff;
   color: #fff;
   border: none;
-  cursor: pointer;
   border-radius: 5px;
- 
-  
-
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
 }
 
 .button:disabled {
@@ -91,22 +69,15 @@ body {
   cursor: not-allowed;
 }
 
-
-
 .greeting {
   font-size: 20px;
   margin-top: 20px;
 }
 
-
-
 .DarkMode {
-  
   --background-color: black;
   --text-color: white;
 }
-
-
 
 .LightMode {
   --background-color: white;
