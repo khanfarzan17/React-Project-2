@@ -9,7 +9,7 @@ const ImageUploader = () => {
     setFile(selectedfile);
   };
   const handleclearUpload = () => {
-    setFile(null);
+    setFile("");
   };
 
   return (
