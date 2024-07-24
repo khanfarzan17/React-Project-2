@@ -1,0 +1,68 @@
+
+
+.Counter-Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.Counter-Header {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.Counter-display {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.Counter-button {
+  background-color: #ff6347; /* Red */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.Counter-button:hover {
+  background-color: #ff4500; /* Darker Red */
+}
+
+.Counter-button:nth-child(2) {
+  background-color: #ffa500; /* Orange */
+}
+
+.Counter-button:nth-child(2):hover {
+  background-color: #ff8c00; /* Darker Orange */
+}
+
+.Counter-button:nth-child(3) {
+  background-color: #32cd32; /* Green */
+}
+
+.Counter-button:nth-child(3):hover {
+  background-color: #228b22; /* Darker Green */
+}
