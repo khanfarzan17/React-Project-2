@@ -30,7 +30,7 @@ const Search = () => {
           onChange={handleChange}
           aria-label="Search products"
         />
-        <p>
+        <p className="product-number">
           Showing {filteredItems.length} of {items.length} products
         </p>
       </div>

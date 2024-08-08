@@ -11,7 +11,8 @@ body {
   justify-content: center;
   align-items: center;
   padding: 20px;
-  background-color: #1cb9f2;
+  background-color: #18191a;
+  color: white;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid #ccc;
 }
@@ -33,7 +34,7 @@ body {
 .search-container p {
   margin-left: 10px;
   font-size: 16px;
-  color: #333;
+  color: #ffff;
 }
 
 .product-container {
@@ -90,8 +91,8 @@ body {
 
 .product-image {
   width: 100%;
-  height: auto; /* Maintain aspect ratio */
-  max-height: 200px; /* Optional: limit height if needed */
+  height: auto;
+  max-height: 300px; /* Set a reasonable max-height */
   object-fit: cover; /* Ensures the image covers the container */
   border-radius: 5px;
 }
