@@ -2,6 +2,7 @@ import { useState } from "react";
 import initialItems from "../Data/data";
 import "../styles/Search.css";
 import { MdDelete } from "react-icons/md";
+
 const Search = () => {
   const [items, setItems] = useState(initialItems);
   const [search, setSearch] = useState("");
@@ -27,6 +28,7 @@ const Search = () => {
           placeholder="Search products..."
           value={search}
           onChange={handleChange}
+          aria-label="Search products"
         />
         <p>
           Showing {filteredItems.length} of {items.length} products
@@ -35,8 +37,13 @@ const Search = () => {
 
       <div className="product-container">
         {filteredItems.map((item) => (
-          <div key={item.id}>
+          <div key={item.id} className="product-item">
             <h2>{item.name}</h2>
+            <img
+              src={item.image}
+              alt={`Image of ${item.name}`}
+              className="product-image"
+            />
             <p>Price: ₹{item.price}</p>
             <p>Category: {item.category}</p>
             <div>
@@ -56,15 +63,16 @@ const Search = () => {
                   <li key={index}>{feature}</li>
                 ))}
               </ul>
-            </div>{" "}
-            <sup>
+            </div>
+            <div className="delete-button-container">
               <button
                 onClick={() => handleDelete(item.id)}
                 className="delete-btn"
+                aria-label={`Delete ${item.name}`}
               >
                 <MdDelete />
               </button>
-            </sup>
+            </div>
           </div>
         ))}
         {!filteredItems.length && <p>No items found matching your search.</p>}

@@ -14,6 +14,7 @@ const item = [
       camera: "12MP",
     },
     features: ["5G", "Face ID", "Dual camera"],
+    image: "https://images.pexels.com/photos/13570143/pexels-photo-13570143.jpeg?auto=compress&cs=tinysrgb&w=600"
   },
   {
     id: "2",
@@ -29,6 +30,7 @@ const item = [
       camera: "64MP",
     },
     features: ["5G", "Infinity-O Display", "Triple camera"],
+    image: "https://images.pexels.com/photos/20348034/pexels-photo-20348034/free-photo-of-camera-lenses-of-samsung-galaxy-s24.jpeg?auto=compress&cs=tinysrgb&w=600"
   },
   // Laptops
   {
@@ -45,6 +47,7 @@ const item = [
       ram: "8GB",
     },
     features: ["Retina Display", "Touch Bar", "Long battery life"],
+    image: "https://images.pexels.com/photos/249538/pexels-photo-249538.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
   {
     id: "4",
@@ -60,6 +63,7 @@ const item = [
       ram: "16GB",
     },
     features: ["InfinityEdge Display", "Backlit keyboard", "Lightweight"],
+    image: "https://i.dell.com/sites/csimages/Video_Imagery/all/xps-13-9310-laptop-7.jpg"
   },
   // Fridges
   {
@@ -75,6 +79,7 @@ const item = [
       energyRating: "A+",
     },
     features: ["Wi-Fi Connectivity", "Touch Screen", "Triple Cooling"],
+    image: "https://images.samsung.com/is/image/samsung/p5/uk/home-appliances/refrigerator/family-hub-rf50k5960dp/Family-Hub_01_Front_Black_PF.jpg"
   },
   {
     id: "6",
@@ -89,6 +94,7 @@ const item = [
       energyRating: "A+",
     },
     features: ["Door-in-Door", "SmartThinQ", "Multi-Air Flow"],
+    image: "https://www.lg.com/us/images/refrigerators/md06000916/gallery/desktop-01.jpg"
   },
   // Washing Machines
   {
@@ -104,6 +110,7 @@ const item = [
       energyRating: "A+",
     },
     features: ["Dual Wash", "Steam Wash", "Wi-Fi Connectivity"],
+    image: "https://images.samsung.com/is/image/samsung/p6pim/au/wv60m9900av-sa/gallery/au-combo-wv60m9900av-sa-292923358?$720_576_PNG$"
   },
   {
     id: "8",
@@ -118,6 +125,7 @@ const item = [
       energyRating: "A+",
     },
     features: ["TwinWash", "TurboWash", "SmartThinQ"],
+    image: "https://www.lg.com/us/images/washers/md05810612/gallery/desktop-01.jpg"
   },
   // Cars
   {
@@ -133,6 +141,7 @@ const item = [
       acceleration: "0-60 mph in 1.99s",
     },
     features: ["Autopilot", "Electric", "Ludicrous Mode"],
+    image: "https://www.tesla.com/sites/default/files/modelsx-new/social/model-s-hero-social.jpg"
   },
   {
     id: "10",
@@ -147,6 +156,7 @@ const item = [
       acceleration: "0-60 mph in 3.5s",
     },
     features: ["Electric", "Ford Co-Pilot360", "Panoramic Roof"],
+    image: "https://media.ford.com/content/fordmedia/fna/us/en/news/2020/11/17/ford-reveals-mustang-mach-e-range-topper/images/mustang-mach-e-range-topper.jpg"
   },
   // More Mobiles
   {
@@ -163,156 +173,8 @@ const item = [
       camera: "48MP",
     },
     features: ["5G", "Fast Charging", "Fluid AMOLED"],
-  },
-  {
-    id: "12",
-    category: "Mobile",
-    name: "Pixel 6",
-    brand: "Google",
-    model: "6",
-    price: 599,
-    specifications: {
-      screen: "6.4 inch",
-      processor: "Google Tensor",
-      storage: "128GB",
-      camera: "50MP",
-    },
-    features: ["5G", "Pure Android", "Magic Eraser"],
-  },
-  // More Laptops
-  {
-    id: "13",
-    category: "Laptop",
-    name: "Surface Laptop 4",
-    brand: "Microsoft",
-    model: "4",
-    price: 999,
-    specifications: {
-      screen: "13.5 inch",
-      processor: "Intel i5",
-      storage: "256GB SSD",
-      ram: "8GB",
-    },
-    features: ["Touchscreen", "Slim Design", "All-day Battery"],
-  },
-  {
-    id: "14",
-    category: "Laptop",
-    name: "ThinkPad X1 Carbon",
-    brand: "Lenovo",
-    model: "Gen 9",
-    price: 1449,
-    specifications: {
-      screen: "14 inch",
-      processor: "Intel i7",
-      storage: "512GB SSD",
-      ram: "16GB",
-    },
-    features: ["Dolby Vision", "Carbon Fiber", "Fingerprint Reader"],
-  },
-  // More Fridges
-  {
-    id: "15",
-    category: "Fridge",
-    name: "Profile Series",
-    brand: "GE",
-    model: "PFE28KYNFS",
-    price: 2699,
-    specifications: {
-      capacity: "27.7 cu. ft.",
-      type: "French Door",
-      energyRating: "A+",
-    },
-    features: ["Keurig K-Cup Brewing", "Hands-free Autofill", "TwinChill"],
-  },
-  {
-    id: "16",
-    category: "Fridge",
-    name: "GNE27JYMFS",
-    brand: "GE",
-    model: "GNE27JYMFS",
-    price: 1899,
-    specifications: {
-      capacity: "27 cu. ft.",
-      type: "French Door",
-      energyRating: "A+",
-    },
-    features: ["Fingerprint Resistant", "LED Lighting", "Adjustable Shelves"],
-  },
-  // More Washing Machines
-  {
-    id: "17",
-    category: "Washing Machine",
-    name: "Smart Front Load",
-    brand: "Whirlpool",
-    model: "WFW9620HW",
-    price: 1199,
-    specifications: {
-      capacity: "5.0 cu. ft.",
-      type: "Front Load",
-      energyRating: "A+",
-    },
-    features: ["Load & Go", "Smart Capabilities", "Steam Clean"],
-  },
-  {
-    id: "18",
-    category: "Washing Machine",
-    name: "Top Load Washer",
-    brand: "Maytag",
-    model: "MVW7230HW",
-    price: 899,
-    specifications: {
-      capacity: "5.2 cu. ft.",
-      type: "Top Load",
-      energyRating: "A+",
-    },
-    features: ["Deep Fill", "PowerWash", "Smart Capabilities"],
-  },
-  // More Cars
-  {
-    id: "19",
-    category: "Car",
-    name: "Civic",
-    brand: "Honda",
-    model: "2022",
-    price: 21500,
-    specifications: {
-      range: "450 miles",
-      topSpeed: "130 mph",
-      acceleration: "0-60 mph in 7.5s",
-    },
-    features: ["Honda Sensing", "Fuel Efficient", "Apple CarPlay"],
-  },
-  {
-    id: "20",
-    category: "Car",
-    name: "Camry",
-    brand: "Toyota",
-    model: "2022",
-    price: 24425,
-    specifications: {
-      range: "500 miles",
-      topSpeed: "135 mph",
-      acceleration: "0-60 mph in 6.8s",
-    },
-    features: ["Toyota Safety Sense", "Hybrid Option", "Spacious Interior"],
+    image: "https://image01.oneplus.net/ebp/202103/25/1-m00-11-11-rb8bwl-bftoafxsxwyajhjtahhkeqjlz0u606_840_840.png"
   }
-  ,
-  {
-    id: "21",
-    category: "Car",
-    name: "Corolla",
-    brand: "Toyota",
-    model: "2022",
-    price: 21900,
-    specifications: {
-      range: "450 miles",
-      topSpeed: "130 mph",
-      acceleration: "0-60 mph in 7.5s",
-    },
-    features: ["Toyota Sensing", "Fuel Efficient", "Apple CarPlay"],
-  }
-
 
 ];
 
