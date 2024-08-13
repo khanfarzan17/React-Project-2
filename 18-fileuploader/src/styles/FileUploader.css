@@ -3,18 +3,19 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: 2px dashed #007bff;
+  border: 12px solid #007bff;
   border-radius: 10px;
-  padding: 25px;
-  width: 320px;
-  margin: 20px auto;
+  padding: 50px;
+  margin-left: 370px;
+  width: 335px;
+  margin-top: 100px;
   background-color: #f9f9f9;
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .file-upload-container:hover {
-  background-color: #e9ecef;
+  background-color: #76797c;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -29,6 +30,7 @@
   color: #495057;
   background-color: #ffffff;
   transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  border: #c20000 4px solid;
 }
 
 .input-filed:hover, 

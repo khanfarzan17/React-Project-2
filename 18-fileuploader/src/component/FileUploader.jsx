@@ -11,10 +11,10 @@ const FileUploader = () => {
 
   const handleClearUpload = () => {
     setFile(null);
-    setFile("");
+
+    document.getElementById("fileInput").value = "";
   };
 
-  // Function to check if the uploaded file is an image
   const isImageFile = (file) => {
     return file && file.type.startsWith("image/");
   };
@@ -22,6 +22,7 @@ const FileUploader = () => {
   return (
     <div className="file-upload-container">
       <input
+        id="fileInput"
         type="file"
         accept=".pdf, .ppt, .pptx, .txt, image/*"
         onChange={handleFileUpload}
