@@ -1,6 +1,6 @@
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f9f9f9;
+  font-family: 'Roboto', sans-serif; /* Switched to a more modern font */
+  background-color: #f3f4f6; /* Light gray background for better contrast */
   color: #333;
   margin: 0;
   padding: 0;
@@ -11,10 +11,10 @@ body {
   justify-content: center;
   align-items: center;
   padding: 20px;
-  background-color: #18191a;
-  color: white;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  border-bottom: 1px solid #ccc;
+  background-color: #2d2f33; /* Dark background for the search area */
+  color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15); /* Stronger shadow for emphasis */
+  border-bottom: 1px solid #555; /* Subtle border */
 }
 
 .search-container input {
@@ -22,19 +22,22 @@ body {
   font-size: 16px;
   width: 80%;
   max-width: 600px;
-  border: 1px solid #bbb;
+  border: 1px solid #444;
   border-radius: 8px;
   margin-right: 10px;
+  background-color: #1c1e22; /* Darker input field */
+  color: #eee; /* Light text color */
+  transition: border-color 0.3s ease-in-out;
 }
 
 .search-container input:focus {
-  border-color: #1cb9f2;
+  border-color: #ff9800; /* Highlight border on focus */
 }
 
 .search-container p {
   margin-left: 10px;
   font-size: 16px;
-  color: #ffff;
+  color: #ff9800; /* Accent color for additional text */
 }
 
 .product-container {
@@ -47,36 +50,37 @@ body {
 
 .product-item {
   position: relative;
-  flex: 0 1 calc(33.333% - 40px);
+  flex: 0 1 calc(25% - 40px); /* Reduced width for a tighter layout */
   box-sizing: border-box;
-  border: 1px solid #ddd;
-  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px; /* Rounded corners for modern look */
   padding: 20px;
-  background-color: #fff;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s, box-shadow 0.3s;
+  background-color: #ffffff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s ease-in-out;
 }
 
 .product-item:hover {
-  transform: scale(1.03);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
 }
 
 .product-item h2 {
-  font-size: 22px;
+  font-size: 24px;
   margin: 0 0 10px;
-  color: #df0909;
+  color: #ff5722; /* Bold, attention-grabbing title color */
 }
 
 .product-item p {
   font-size: 16px;
   margin: 5px 0;
+  color: #666;
 }
 
 .product-item h3 {
   font-size: 18px;
   margin: 10px 0 5px;
-  color: #e5533d;
+  color: #ff9800; /* Accent color for subheading */
 }
 
 .product-item ul {
@@ -87,32 +91,33 @@ body {
 .product-item ul li {
   list-style-type: disc;
   font-size: 16px;
+  color: #444;
 }
 
 .product-image {
   width: 100%;
   height: auto;
-  max-height: 300px; /* Set a reasonable max-height */
-  object-fit: cover; /* Ensures the image covers the container */
+  max-height: 250px; /* Reduced height for compact view */
+  object-fit: cover;
   border-radius: 5px;
 }
 
 .delete-btn {
   position: absolute;
-  top: -10px; 
-  right: -10px; 
-  background-color: #df0909;
+  top: -10px;
+  right: -10px;
+  background-color: #ff5722; /* Bright button color */
   color: #fff;
   border: none;
-  border-radius: 30%;
+  border-radius: 50%; /* Circular button */
   padding: 8px 12px;
   cursor: pointer;
-  transition: background-color 0.3s, transform 0.3s;
+  transition: background-color 0.3s, transform 0.3s ease-in-out;
 }
 
 .delete-btn:hover {
-  background-color: #e5533d;
-  transform: scale(1.05);
+  background-color: #ff784e;
+  transform: scale(1.1); /* Increased scale on hover */
 }
 
 @media (max-width: 768px) {
@@ -137,7 +142,7 @@ body {
   }
 
   .product-item {
-    flex: 0 1 calc(50% - 30px);
+    flex: 0 1 calc(50% - 30px); /* Adjusted for tablets */
     padding: 15px;
   }
 }
@@ -161,7 +166,7 @@ body {
   }
 
   .product-item {
-    flex: 0 1 calc(100% - 20px);
+    flex: 0 1 calc(100% - 20px); /* Full width for mobile */
     padding: 10px;
   }
 }
