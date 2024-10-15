@@ -1,7 +1,6 @@
 import { useState } from "react";
 import initialItems from "../Data/data";
 import "../styles/Search.css";
-import { MdDelete } from "react-icons/md";
 
 const Search = () => {
   const [items, setItems] = useState(initialItems);
@@ -15,14 +14,14 @@ const Search = () => {
     setSearch(e.target.value);
   };
 
-  const handleDelete = (id) => {
-    const updatedItems = items.filter((item) => item.id !== id);
-    setItems(updatedItems);
-  };
-
   return (
     <>
       <div className="search-container">
+        {/* Text Logo for ShopSphere */}
+        <div className="logo-container">
+          <h1 className="shop-name">ShopSphere</h1>
+        </div>
+
         <input
           type="text"
           placeholder="Search products..."
@@ -63,15 +62,6 @@ const Search = () => {
                   <li key={index}>{feature}</li>
                 ))}
               </ul>
-            </div>
-            <div className="delete-button-container">
-              <button
-                onClick={() => handleDelete(item.id)}
-                className="delete-btn"
-                aria-label={`Delete ${item.name}`}
-              >
-                <MdDelete />
-              </button>
             </div>
           </div>
         ))}

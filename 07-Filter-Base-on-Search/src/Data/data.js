@@ -3,18 +3,26 @@ const item = [
   {
     id: "1",
     category: "Mobile",
-    name: "IPhone 12",
+    name: "iPhone 12",
     brand: "Apple",
     model: "12",
-    price:  "60,000",
+    price: "60,000",
     specifications: {
       screen: "6.1 inch",
       processor: "A14 Bionic",
       storage: "128GB",
       camera: "12MP",
     },
-    features: ["5G", "Face ID", "Dual camera"],
-    image: "https://images.pexels.com/photos/14979031/pexels-photo-14979031/free-photo-of-smart-phone-and-a-cube.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+    features: [
+      "5G",
+      "Face ID",
+      "Dual camera",
+      "Wireless Charging",
+      "Water Resistant",
+      "MagSafe",
+    ],
+    image:
+      "https://images.pexels.com/photos/14979031/pexels-photo-14979031/free-photo-of-smart-phone-and-a-cube.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
   },
   {
     id: "2",
@@ -29,10 +37,18 @@ const item = [
       storage: "128GB",
       camera: "64MP",
     },
-    features: ["5G", "Infinity-O Display", "Triple camera"],
-    image: "https://images.pexels.com/photos/20348034/pexels-photo-20348034/free-photo-of-camera-lenses-of-samsung-galaxy-s24.jpeg?auto=compress&cs=tinysrgb&w=600"
+    features: [
+      "5G",
+      "Infinity-O Display",
+      "Triple camera",
+      "Wireless Charging",
+      "IP68 Rating",
+      "Expandable Storage",
+    ],
+    image:
+      "https://images.pexels.com/photos/20348034/pexels-photo-20348034/free-photo-of-camera-lenses-of-samsung-galaxy-s24.jpeg?auto=compress&cs=tinysrgb&w=600",
   },
- 
+
   {
     id: "3",
     category: "Laptop",
@@ -46,8 +62,16 @@ const item = [
       storage: "256GB SSD",
       ram: "8GB",
     },
-    features: ["Retina Display", "Touch Bar", "Long battery life"],
-    image: "https://images.pexels.com/photos/249538/pexels-photo-249538.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    features: [
+      "Retina Display",
+      "Touch Bar",
+      "Long battery life",
+      "Touch ID",
+      "Thunderbolt 3",
+      "Backlit Keyboard",
+    ],
+    image:
+      "https://images.pexels.com/photos/249538/pexels-photo-249538.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
   },
   {
     id: "4",
@@ -62,10 +86,18 @@ const item = [
       storage: "512GB SSD",
       ram: "16GB",
     },
-    features: ["InfinityEdge Display", "Backlit keyboard", "Lightweight"],
-    image: "https://imgs.search.brave.com/p5N23fAzE6PLsZOq6iE6dNNKB-qmNguHUFCZyUpy4Ok/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Y25ldC5jb20vYS9p/bWcvcmVzaXplL2Mz/Yjk4MTJiOGUyM2Vi/YzkwODdkZmIwOTcy/YjI2NTA4NjViMjdi/NzIvaHViLzIwMTUv/MDEvMDYvMTUxYjcw/NDUtOThhYS00NDU5/LWFlYTItNmQ4Y2Y0/YWQyMTgxL2RlbGwt/eHBzLTEzLWNlcy0y/MDE1LTAwMS5qcGc_/YXV0bz13ZWJwJndp/ZHRoPTEyMDA"
+    features: [
+      "InfinityEdge Display",
+      "Backlit keyboard",
+      "Lightweight",
+      "Fingerprint Reader",
+      "Thunderbolt 4",
+      "Long Battery Life",
+    ],
+    image:
+      "https://imgs.search.brave.com/p5N23fAzE6PLsZOq6iE6dNNKB-qmNguHUFCZyUpy4Ok/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Y25ldC5jb20vYS9p/bWcvcmVzaXplL2Mz/Yjk4MTJiOGUyM2Vi/YzkwODdkZmIwOTcy/YjI2NTA4NjViMjdi/NzIvaHViLzIwMTUv/MDEvMDYvMTUxYjcw/NDUtOThhYS00NDU5/LWFlYTItNmQ4Y2Y0/YWQyMTgxL2RlbGwt/eHBzLTEzLWNlcy0y/MDE1LTAwMS5qcGc_/YXV0bz13ZWJwJndp/ZHRoPTEyMDA",
   },
- 
+
   {
     id: "5",
     category: "Fridge",
@@ -78,8 +110,16 @@ const item = [
       type: "French Door",
       energyRating: "A+",
     },
-    features: ["Wi-Fi Connectivity", "Touch Screen", "Triple Cooling"],
-    image: "https://imgs.search.brave.com/xHI5NaV3zPHjJ-sqiBGWt6IxmOU7F6ByffJto30mMpw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9oaXBz/LmhlYXJzdGFwcHMu/Y29tL3ZhZGVyLXBy/b2QuczMuYW1hem9u/YXdzLmNvbS8xNjM0/MzE1OTM4LWdlLXBy/b2ZpbGUtZnJpZGdl/LTE2MzQzMTU5Mjcu/anBnP2Nyb3A9MXh3/OjF4aDtjZW50ZXIs/dG9wJnJlc2l6ZT05/ODA6Kg"
+    features: [
+      "Wi-Fi Connectivity",
+      "Touch Screen",
+      "Triple Cooling",
+      "Smart Home Integration",
+      "Internal Cameras",
+      "Voice Control",
+    ],
+    image:
+      "https://imgs.search.brave.com/xHI5NaV3zPHjJ-sqiBGWt6IxmOU7F6ByffJto30mMpw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9oaXBz/LmhlYXJzdGFwcHMu/Y29tL3ZhZGVyLXBy/b2QuczMuYW1hem9u/YXdzLmNvbS8xNjM0/MzE1OTM4LWdlLXBy/b2ZpbGUtZnJpZGdl/LTE2MzQzMTU5Mjcu/anBnP2Nyb3A9MXh3/OjF4aDtjZW50ZXIs/dG9wJnJlc2l6ZT05/ODA6Kg",
   },
   {
     id: "6",
@@ -93,8 +133,16 @@ const item = [
       type: "Side-by-Side",
       energyRating: "A+",
     },
-    features: ["Door-in-Door", "SmartThinQ", "Multi-Air Flow"],
-    image: "https://imgs.search.brave.com/DkY_H7akZmoAyIQK7IB6C8PX9TU-oaJEwV_-ZlMHwHM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bGcuY29tL2xldmFu/dF9lbi9pbWFnZXMv/YWlyLWNvbmRpdGlv/bmluZy11bml0cy9t/ZDA2MjQxMTk2L2dh/bGxlcnkvMTEwMC0x/LmpwZw"
+    features: [
+      "Door-in-Door",
+      "SmartThinQ",
+      "Multi-Air Flow",
+      "Energy Efficient",
+      "Wi-Fi Control",
+      "Quiet Operation",
+    ],
+    image:
+      "https://imgs.search.brave.com/DkY_H7akZmoAyIQK7IB6C8PX9TU-oaJEwV_-ZlMHwHM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bGcuY29tL2xldmFu/dF9lbi9pbWFnZXMv/YWlyLWNvbmRpdGlv/bmluZy11bml0cy9t/ZDA2MjQxMTk2L2dh/bGxlcnkvMTEwMC0x/LmpwZw",
   },
   // Washing Machines
   {
@@ -109,8 +157,16 @@ const item = [
       type: "Front Load",
       energyRating: "A+",
     },
-    features: ["Dual Wash", "Steam Wash", "Wi-Fi Connectivity"],
-    image: "https://imgs.search.brave.com/gmH64EIIxZ--Jlr4RloioS7pSh17EC9RB35rZgYgS2I/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tb2Jp/bGVpbWFnZXMubG93/ZXMuY29tL3Byb2R1/Y3QvY29udmVydGVk/Lzg4NzI3Ni84ODcy/NzYxOTY5MjMuanBn/P3NpemU9eGw"
+    features: [
+      "Dual Wash",
+      "Steam Wash",
+      "Wi-Fi Connectivity",
+      "Load Sensing",
+      "Energy Efficient",
+      "Self-Cleaning",
+    ],
+    image:
+      "https://imgs.search.brave.com/gmH64EIIxZ--Jlr4RloioS7pSh17EC9RB35rZgYgS2I/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tb2Jp/bGVpbWFnZXMubG93/ZXMuY29tL3Byb2R1/Y3QvY29udmVydGVk/Lzg4NzI3Ni84ODcy/NzYxOTY5MjMuanBn/P3NpemU9eGw",
   },
   {
     id: "8",
@@ -124,14 +180,22 @@ const item = [
       type: "Front Load",
       energyRating: "A+",
     },
-    features: ["TwinWash", "TurboWash", "SmartThinQ"],
-    image: "https://imgs.search.brave.com/J86treqTc5RW0x1LCKs_bc0tPn4j73TJQukmS6M1izo/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bGcuY29tL2xldmFu/dF9lbi9pbWFnZXMv/cGxwLWIyYy9IQS1U/Vy1Nb2JpbGUtNzY4/eDEyMDAtQXItRW4u/anBn"
+    features: [
+      "TwinWash",
+      "TurboWash",
+      "SmartThinQ",
+      "Energy Efficient",
+      "Auto Detergent",
+      "Load Sensing",
+    ],
+    image:
+      "https://imgs.search.brave.com/J86treqTc5RW0x1LCKs_bc0tPn4j73TJQukmS6M1izo/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bGcuY29tL2xldmFu/dF9lbi9pbWFnZXMv/cGxwLWIyYy9IQS1U/Vy1Nb2JpbGUtNzY4/eDEyMDAtQXItRW4u/anBn",
   },
   // Cars
   {
     id: "9",
     category: "Car",
-    name: " Tesla Model S",
+    name: "Tesla Model S",
     brand: "Tesla",
     model: "S",
     price: "60,000,00",
@@ -140,8 +204,16 @@ const item = [
       topSpeed: "200 mph",
       acceleration: "0-60 mph in 1.99s",
     },
-    features: ["Autopilot", "Electric", "Ludicrous Mode"],
-    image: "https://images.pexels.com/photos/14674136/pexels-photo-14674136.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    features: [
+      "Autopilot",
+      "Electric",
+      "Ludicrous Mode",
+      "Over-the-Air Updates",
+      "Premium Interior",
+      "Long Range",
+    ],
+    image:
+      "https://images.pexels.com/photos/14674136/pexels-photo-14674136.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
   },
   {
     id: "10",
@@ -155,8 +227,16 @@ const item = [
       topSpeed: "180 mph",
       acceleration: "0-60 mph in 3.5s",
     },
-    features: ["Electric", "Ford Co-Pilot360", "Panoramic Roof"],
-    image: "https://images.pexels.com/photos/575386/pexels-photo-575386.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    features: [
+      "Electric",
+      "Ford Co-Pilot360",
+      "Panoramic Roof",
+      "All-Wheel Drive",
+      "SYNC 4A",
+      "Rapid Charging",
+    ],
+    image:
+      "https://images.pexels.com/photos/575386/pexels-photo-575386.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
   },
   // More Mobiles
   {
@@ -172,11 +252,17 @@ const item = [
       storage: "128GB",
       camera: "48MP",
     },
-    features: ["4G", "Fast Charging", "Fluid AMOLED"],
-    image: "https://images.pexels.com/photos/10343717/pexels-photo-10343717.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-  }
-  ,
-
+    features: [
+      "4G",
+      "Fast Charging",
+      "Fluid AMOLED",
+      "Alert Slider",
+      "Dual SIM",
+      "In-Display Fingerprint",
+    ],
+    image:
+      "https://images.pexels.com/photos/10343717/pexels-photo-10343717.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+  },
   {
     id: "12",
     category: "Laptop",
@@ -188,12 +274,115 @@ const item = [
       screen: "13.3 inch",
       processor: "Apple M1",
       storage: "256GB SSD",
-      camera: "720p HD"
+      camera: "720p HD",
     },
-    features: ["Retina Display", "M1 Chip", "Fast SSD Storage"],
-    image: "https://imgs.search.brave.com/vU06aD00gjn6Kxih7myxu18mlSSnZuNHlwGFUWBwx5Y/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9oZWxp/b3MtaS5tYXNoYWJs/ZS5jb20vaW1hZ2Vy/eS9yZXZpZXdzLzAz/Z3dwS1FkR3N6b3Ro/Q2VUbWpTbW1pL2lt/YWdlcy00LmZpbGwu/c2l6ZV8yMDAweDEx/MjYudjE2OTgwMzM0/NzguanBn"
-  }
-
+    features: [
+      "Retina Display",
+      "M1 Chip",
+      "Fast SSD Storage",
+      "Touch ID",
+      "Fanless Design",
+      "Thunderbolt 3",
+    ],
+    image:
+      "https://imgs.search.brave.com/vU06aD00gjn6Kxih7myxu18mlSSnZuNHlwGFUWBwx5Y/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9oZWxp/b3MtaS5tYXNoYWJs/ZS5jb20vaW1hZ2Vy/eS9yZXZpZXdzLzAz/Z3dwS1FkR3N6b3Ro/Q2VUbWpTbW1pL2lt/YWdlcy00LmZpbGwu/c2l6ZV8yMDAweDEx/MjYudjE2OTgwMzM0/NzguanBn",
+  },
+  {
+    id: "14",
+    category: "Laptop",
+    name: "Dell XPS 13",
+    brand: "Dell",
+    model: "9310",
+    price: "1,20,000",
+    specifications: {
+      screen: "13.4 inch",
+      processor: "Intel i7 11th Gen",
+      storage: "512GB SSD",
+      camera: "720p HD",
+    },
+    features: [
+      "InfinityEdge Display",
+      "Ultra-portable",
+      "Thunderbolt 4",
+      "Fingerprint Reader",
+      "Long Battery Life",
+      "Backlit Keyboard",
+    ],
+    image:
+      "https://imgs.search.brave.com/p5N23fAzE6PLsZOq6iE6dNNKB-qmNguHUFCZyUpy4Ok/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Y25ldC5jb20vYS9p/bWcvcmVzaXplL2Mz/Yjk4MTJiOGUyM2Vi/YzkwODdkZmIwOTcy/YjI2NTA4NjViMjdi/NzIvaHViLzIwMTUv/MDEvMDYvMTUxYjcw/NDUtOThhYS00NDU5/LWFlYTItNmQ4Y2Y0/YWQyMTgxL2RlbGwt/eHBzLTEzLWNlcy0y/MDE1LTAwMS5qcGc_/YXV0bz13ZWJwJndp/ZHRoPTEyMDA",
+  },
+  {
+    id: "15",
+    category: "Laptop",
+    name: "HP Spectre x360",
+    brand: "HP",
+    model: "14T",
+    price: "1,10,000",
+    specifications: {
+      screen: "13.5 inch",
+      processor: "Intel i7 12th Gen",
+      storage: "1TB SSD",
+      camera: "1080p Full HD",
+    },
+    features: [
+      "360° Hinge",
+      "OLED Display",
+      "Stylus Support",
+      "Backlit Keyboard",
+      "Thunderbolt 4",
+      "Fingerprint Reader",
+    ],
+    image:
+      "https://imgs.search.brave.com/pMsifhQOKAROZgnJacINhioLgiseRQE2OidGPvhTf0c/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/bW9zLmNtcy5mdXR1/cmVjZG4ubmV0L0Nz/eGZRM01hRFo4QTlB/ZnFTaUxmNC00ODAt/ODAuanBn",
+  },
+  {
+    id: "16",
+    category: "Laptop",
+    name: "Lenovo Yoga 9i",
+    brand: "Lenovo",
+    model: "82BG",
+    price: "1,25,000",
+    specifications: {
+      screen: "14 inch",
+      processor: "Intel i7 11th Gen",
+      storage: "512GB SSD",
+      camera: "720p HD",
+    },
+    features: [
+      "360° Flip Design",
+      "Dolby Atmos",
+      "Stylus Support",
+      "Touchscreen",
+      "Backlit Keyboard",
+      "Long Battery Life",
+    ],
+    image:
+      "https://imgs.search.brave.com/foj15wZjfFQeIlTEIFYJ4hGETtxvtwupC-MBwfvbRk8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zLnlp/bWcuY29tL255L2Fw/aS9yZXMvMS4yLzZZ/NXViQjVtd3ZkSlp4/dGRBakFrbWctLS9Z/WEJ3YVdROWFHbG5h/R3hoYm1SbGNqdDNQ/VGsyTUR0b1BUVTNO/Zy0tL2h0dHBzOi8v/cy55aW1nLmNvbS9v/cy9jcmVhdHItdXBs/b2FkZWQtaW1hZ2Vz/LzIwMjQtMDEvNTY2/MTY2OTAtYWU0ZS0x/MWVlLWI4ZjktZWIz/N2FlNjlmMWQy",
+  },
+  {
+    id: "17",
+    category: "Laptop",
+    name: "Asus ROG Zephyrus G14",
+    brand: "Asus",
+    model: "GA401IV",
+    price: "1,45,000",
+    specifications: {
+      screen: "14 inch",
+      processor: "AMD Ryzen 9",
+      storage: "1TB SSD",
+      camera: "720p HD",
+    },
+    features: [
+      "144Hz Display",
+      "NVIDIA RTX 2060",
+      "AniMe Matrix",
+      "RGB Keyboard",
+      "Advanced Cooling",
+      "Wi-Fi 6",
+    ],
+    image:
+      "https://imgs.search.brave.com/_KpxyviZ-40BrEj16pAJZGa5BpaOIwKBYxu7cwKFlOc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/ZXhjYWxpYmVycGMu/Y29tL2ltYWdlcy83/ODg4MTZfMS9sYXJn/ZS5qcGc",
+  },
 ];
 
 export default item;

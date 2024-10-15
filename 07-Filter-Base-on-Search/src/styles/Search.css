@@ -1,7 +1,10 @@
+/* Importing Roboto font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
 body {
-  font-family: 'Roboto', sans-serif; /* Switched to a more modern font */
-  background-color: #f3f4f6; /* Light gray background for better contrast */
-  color: #333;
+  font-family: 'Roboto', sans-serif; 
+  background-color: #111827; 
+  color: #7e22ce; 
   margin: 0;
   padding: 0;
 }
@@ -11,10 +14,10 @@ body {
   justify-content: center;
   align-items: center;
   padding: 20px;
-  background-color: #2d2f33; /* Dark background for the search area */
-  color: #fff;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15); /* Stronger shadow for emphasis */
-  border-bottom: 1px solid #555; /* Subtle border */
+  background-color: #1f2937; 
+  color: #7e22ce; 
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15); 
+  border-bottom: 1px solid #555; 
 }
 
 .search-container input {
@@ -25,20 +28,39 @@ body {
   border: 1px solid #444;
   border-radius: 8px;
   margin-right: 10px;
-  background-color: #1c1e22; /* Darker input field */
-  color: #eee; /* Light text color */
+  background-color: #1c1e22; 
+  color: #eee; 
   transition: border-color 0.3s ease-in-out;
 }
 
+.search-container input::placeholder {
+  color: #bbb; 
+}
+
 .search-container input:focus {
-  border-color: #ff9800; /* Highlight border on focus */
+  border-color: #7e22ce; 
+  outline: none;
 }
 
 .search-container p {
   margin-left: 10px;
   font-size: 16px;
-  color: #ff9800; /* Accent color for additional text */
+  color: #7e22ce; 
 }
+.logo-container {
+  margin-right: 10px 
+}
+
+.shop-name {
+  font-size: 30px; 
+  color: #7e22ce; 
+  font-weight: bold; 
+  margin: 0; 
+  display: inline-block; 
+  
+}
+
+
 
 .product-container {
   display: flex;
@@ -50,37 +72,34 @@ body {
 
 .product-item {
   position: relative;
-  flex: 0 1 calc(25% - 40px); /* Reduced width for a tighter layout */
+  flex: 0 1 calc(25% - 40px); 
   box-sizing: border-box;
   border: 1px solid #e0e0e0;
-  border-radius: 10px; /* Rounded corners for modern look */
+  border-radius: 10px;
   padding: 20px;
-  background-color: #ffffff;
+  background-color: #1f2937; 
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s, box-shadow 0.3s ease-in-out;
 }
 
-.product-item:hover {
-  transform: scale(1.05);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
-}
+
 
 .product-item h2 {
   font-size: 24px;
   margin: 0 0 10px;
-  color: #ff5722; /* Bold, attention-grabbing title color */
+  color: #7e22ce; 
 }
 
 .product-item p {
   font-size: 16px;
   margin: 5px 0;
-  color: #666;
+  color: #bbb;
 }
 
 .product-item h3 {
   font-size: 18px;
   margin: 10px 0 5px;
-  color: #ff9800; /* Accent color for subheading */
+  color: #7e22ce;
 }
 
 .product-item ul {
@@ -91,44 +110,51 @@ body {
 .product-item ul li {
   list-style-type: disc;
   font-size: 16px;
-  color: #444;
+  color: #ccc; 
 }
 
 .product-image {
   width: 100%;
   height: auto;
-  max-height: 250px; /* Reduced height for compact view */
+  max-height: 250px; 
   object-fit: cover;
   border-radius: 5px;
+  margin-bottom: 15px;
 }
 
 .delete-btn {
   position: absolute;
   top: -10px;
   right: -10px;
-  background-color: #ff5722; /* Bright button color */
+  background-color: #dc3545; 
   color: #fff;
   border: none;
-  border-radius: 50%; /* Circular button */
+  border-radius: 20%; 
   padding: 8px 12px;
   cursor: pointer;
   transition: background-color 0.3s, transform 0.3s ease-in-out;
+  font-weight: bold;
 }
 
 .delete-btn:hover {
-  background-color: #ff784e;
-  transform: scale(1.1); /* Increased scale on hover */
+  background-color: #c82333; 
+  transform: scale(1.1); 
 }
 
+/* Responsive Design */
+
+/* Tablets */
 @media (max-width: 768px) {
   .search-container {
     padding: 15px;
+    flex-direction: column;
   }
 
   .search-container input {
     width: 100%;
     font-size: 14px;
     margin-bottom: 10px;
+    margin-right: 0;
   }
 
   .search-container p {
@@ -147,6 +173,7 @@ body {
   }
 }
 
+/* Mobile Devices */
 @media (max-width: 480px) {
   .search-container {
     padding: 10px;
@@ -168,5 +195,22 @@ body {
   .product-item {
     flex: 0 1 calc(100% - 20px); /* Full width for mobile */
     padding: 10px;
+  }
+
+  .product-item h2 {
+    font-size: 20px;
+  }
+
+  .product-item h3 {
+    font-size: 16px;
+  }
+
+  .product-item p,
+  .product-item ul li {
+    font-size: 14px;
+  }
+
+  .delete-btn {
+    padding: 6px 10px;
   }
 }
